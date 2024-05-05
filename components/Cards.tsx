@@ -49,7 +49,7 @@ const Cards = () => {
             </CardDescription>
           </CardHeader>
           <CardContent className="">
-            <div className="w-full my-3 flex items-center justify-center rounded-lg ">
+            <div className="w-full my-3 flex items-center justify-center rounded-lg overflow-hidden">
               <Image
                 src={card.image}
                 alt={card.title}

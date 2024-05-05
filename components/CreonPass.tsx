@@ -25,7 +25,7 @@ const CreonPass = () => {
             </p>
           ))}
         </div>
-        <button className="w-full lg:w-2/3 h-[45px] lg:h-[3vw] bg-gradient lg:text-[1.1vw] font-bold p-4 rounded-md flex flex-col items-center justify-center overflow-hidden btn-animation">
+        <button className="w-full lg:w-2/3 h-[45px] lg:h-[3vw] bg-gradient lg:text-sm font-bold p-4 rounded-md flex flex-col items-center justify-center overflow-hidden btn-animation hover:bg-main">
           <span className="">Buy Creon Pass</span>
           <span className="">Buy Creon Pass</span>
         </button>

@@ -17,7 +17,7 @@ const Profiting = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10 w-full mt-2 lg:mt-20">
-          <div className="py-0 pr-2.5 pl-0 box-border w-full lg:w-[65vw] relative">
+          <div className="py-0 pr-2.5 pl-0 box-border w-full lg:w-[1010px] relative">
             <img
               src="/gradient.webp"
               alt="gradient Image"
@@ -27,7 +27,7 @@ const Profiting = () => {
               <source src="/CREON.mp4" type="video/mp4" />
             </video>
           </div>
-          <div className="w-full md:w-3/4 lg:w-[30.vw] h-full flex flex-col items-center justify-center py-3 lg:py-0 lg:px-3 pb-26 border-y-2 lg:border-y-0 lg:border-x-2 border-[#13171d] box-border">
+          <div className="w-full md:w-3/4 lg:w-[450px] h-full flex flex-col items-center justify-center py-3 lg:py-0 lg:px-3 pb-26 border-y-2 lg:border-y-0 lg:border-x-2 border-[#13171d] box-border">
             <div className="flex flex-col items-start justify-start gap-7">
               <h4 className="font-bold text-xl lg:text-[1.1vw]">
                 The dynamic community driven business model of the future.

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { title } from "process";
 import Socials from "./Socials";
+import { cn } from "@/lib/utils";
 
 const navElements = [
   { title: "Creon Pass" },
@@ -34,7 +35,10 @@ const NavBar = () => {
           <Link
             href={`#${element.title}`}
             key={index}
-            className="relative text-base mr-4 hover:text-primary-main transition"
+            className={cn(
+              "relative text-sm font-bold mr-4 hover:text-primary-main transition",
+              !element.soon && "hover:text-main"
+            )}
           >
             {element.title}
             {element.soon && (

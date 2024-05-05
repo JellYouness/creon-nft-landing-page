@@ -28,10 +28,10 @@ const AI = () => {
       {aiData.map((ai, index) => (
         <div
           key={index}
-          className="flex flex-col-reverse lg:flex-row items-start w-full bg-[#13171dab] rounded-md"
+          className="flex flex-col-reverse lg:flex-row items-start w-full h-[218px] bg-[#13171dab] rounded-md"
         >
-          <div className="flex flex-col items-start gap-4 lg:gap-0 p-5 lg:p-9">
-            <h3 className="text-2xl lg:text-[1.979vw] uppercase font-monument">
+          <div className="flex min-w-[900px] flex-col items-start gap-4 lg:gap-0 p-5 lg:p-9">
+            <h3 className="text-2xl lg:text-[2vw] uppercase font-monument">
               {ai.title}
             </h3>
             <p className="lg:text-sm">{ai.description}</p>
@@ -41,9 +41,9 @@ const AI = () => {
               src={ai.image}
               alt="AI"
               loading="lazy"
-              width="1269"
-              height="702"
-              className="lg:rounded-tr-md lg:rounded-br-md"
+              width={483}
+              height={322}
+              className="lg:rounded-tr-md lg:rounded-br-md w-[327px] h-[218px] object-cover"
             />
           </div>
         </div>
