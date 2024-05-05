@@ -75,6 +75,20 @@ body {
   @apply text-white bg-black;
 }
 
+body::-webkit-scrollbar,html::-webkit-scrollbar {
+    width: .26vw
+}
+
+body::-webkit-scrollbar-track,html::-webkit-scrollbar-track {
+    background-color: #000;
+    opacity: 0
+}
+
+body::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb {
+    box-shadow: inset .26vw .26vw .26vw .26vw #ab23ff;
+    border-radius: .104vw
+}
+
 .text-gradient {
   @apply bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text;
 }
