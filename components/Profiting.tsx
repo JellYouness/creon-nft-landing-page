@@ -17,7 +17,12 @@ const Profiting = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10 w-full mt-2 lg:mt-20">
-          <div className="py-0 pr-2.5 pl-0 box-border w-full lg:w-[65vw]">
+          <div className="py-0 pr-2.5 pl-0 box-border w-full lg:w-[65vw] relative">
+            <img
+              src="/gradient.webp"
+              alt="gradient Image"
+              className="absolute top-0 left-0 h-full w-full object-cover mix-blend-soft-light"
+            />
             <video autoPlay loop playsInline muted>
               <source src="/CREON.mp4" type="video/mp4" />
             </video>

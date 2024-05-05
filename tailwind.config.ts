@@ -18,11 +18,6 @@ const config = {
       },
     },
     extend: {
-      backgroundImage: {
-        hero: "url('../assets/hero.png')",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       fontFamily: {
         monument: ["MonumentExtended-Regular"],
       },
